@@ -1,0 +1,23 @@
+.pol-img{
+    height: 15rem;
+    border-bottom: 2px solid;
+}
+
+.pol-img2{
+    height: 15rem;
+    width: 23rem;
+    border-bottom: 2px solid;
+}
+
+.polity-subpoint-container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 9.9rem;
+}
+
+.pol-img-text-container{
+    border: 3px solid;
+    border-radius: .7rem;
+    cursor: pointer;
+}

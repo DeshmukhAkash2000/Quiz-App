@@ -1,0 +1,13 @@
+.footer-container{
+    background-color: royalblue;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+.footer-text{
+    color: white;
+}
+
+.footer-subtext{
+    font-size: 2rem;
+}

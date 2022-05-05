@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&family=Candal&family=Monoton&family=Open+Sans&family=Sansita:ital@1&display=swap');
+
+.header-container{
+    background-color: royalblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-title{
+    color: white;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+.head-icon {
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+}

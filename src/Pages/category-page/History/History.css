@@ -1,0 +1,35 @@
+.history-img{
+    height: 14.2rem;
+    width: 18rem;
+    border-bottom: 2px solid;   
+}
+
+.history-img2{
+    width: 18rem;
+    height: 14rem;
+    border-bottom: 2px solid; 
+}
+
+.history-subtopic-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    padding: 9.1rem;
+
+}
+
+.history-img-text{
+    border: 3px solid;
+    width: fit-content;
+    border-radius: .7rem;
+    height: 18rem;
+    cursor: pointer;
+    
+}
+
+.history-img-text:hover{
+    background-color:rgb(190, 175, 175);
+    
+}
