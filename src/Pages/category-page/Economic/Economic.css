@@ -1,0 +1,17 @@
+.eco-img1{
+    height: 15rem;
+    border-bottom: 2px solid;
+}
+
+.economics-subtopic-container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 9.8rem;
+}
+
+.eco-subcontainer{
+    border: 3px solid;
+    border-radius: .7rem;
+    cursor: pointer;
+}
