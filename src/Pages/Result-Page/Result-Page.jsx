@@ -3,7 +3,7 @@ import { useQuestion } from "../../Context/UseContext";
 import "./Result-Page.css";
 
 function ResultPage() {
-  const { score, data, queIndex } = useQuestion();
+  const { score, data } = useQuestion();
   return (
     <div className="result-page-container">
       <h1>Hurrey!! Your Final Score is {score}</h1>
