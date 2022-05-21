@@ -6,7 +6,7 @@ import { useQuestion } from "../../../Context/UseContext";
 
 function Polity() {
 
-    const {data, setData} = useQuestion();
+    const { setData} = useQuestion();
 
   return (
     <div className='polity-subpoint-container'>
