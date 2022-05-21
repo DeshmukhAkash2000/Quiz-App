@@ -7,8 +7,9 @@
     display: flex;
     justify-content: center;
     align-items:center ;
-    margin-top: 5rem;
+    margin-top: 3rem;
     gap: 7rem;
+    padding: 2rem;
     
 }
 
@@ -18,13 +19,13 @@
 .explore-btn{
     padding: .7rem;
     background-color: blue;
-    color: white;
+    color: var(--White-color);
     font-weight: bold;
     cursor: pointer;
 }
 
 .topic-icon{
-    background-color: white;
+    background-color: var(--White-color);
     font-size: 7rem;
     margin-top: 3rem;
     width: 13rem;
@@ -36,7 +37,7 @@
     font-size: 1.7rem;
     font-weight: bold;
     cursor: pointer;
-    background-color: white;
+    background-color: var(--White-color);
     text-align: center;
 
 }
@@ -63,4 +64,9 @@
 
 Link{
     text-decoration: none;
+}
+
+.topics-container{
+    text-decoration: underline;
+
 }

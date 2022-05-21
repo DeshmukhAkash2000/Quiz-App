@@ -1,0 +1,38 @@
+.Que-Ans-Container{
+    padding: 5rem;
+}
+
+
+.options{
+    border: 2px solid;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 20rem;    
+}
+
+.options:hover{
+    background-color: rgb(235, 229, 229);
+}
+
+.options:active{
+    background-color: #67e8f9;
+}
+
+.option-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Question-number-shower{
+    font-size: 32px;
+}
+
+@media screen and (max-width: 630px) {
+    html {
+      font-size: 13px;
+    }
+  }
+
