@@ -3,16 +3,22 @@ import "./home.css"
 import {Link} from "react-router-dom"
 
 function Home() {
+
+  const scrollDown = () => {
+    window.scrollTo(0, document.body.scrollHeight)
+}
+
   return (
     <div>
       <div className="main-home-container">
         <img className='home-img' src="/images/quiz-pic.svg" alt="quiz-pic"/>
         <div>
           <h2 className='home-text'>Let's Know <br/> Your Knowledge!!!!</h2>
-          <button className='explore-btn'>Let's Explore !</button>
+          <button className='explore-btn' onClick={scrollDown}>Let's Explore !</button>
         </div>
 
       </div>
+      <h2 className='topics-container'>Topics</h2>
       <div className="topic-container">
         <Link to="./History">
           <div className="history-container">

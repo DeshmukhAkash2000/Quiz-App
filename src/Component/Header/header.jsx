@@ -9,7 +9,9 @@ function Header() {
       <Link to="/">
          <h1 className="quiz-title">Spark-Quiz</h1>
       </Link>
-      <i class="fa fa-user head-icon"></i>
+      <Link to={"/Login"}>
+        <i className="fa fa-user head-icon"></i>
+      </Link>
     </div>
   )
 }

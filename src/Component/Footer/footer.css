@@ -1,13 +1,30 @@
 .footer-container{
-    background-color: royalblue;
-    padding: 3rem;
+    background-color: var( --Primary-color);
+    padding: 2rem;
     margin-top: 2rem;
 }
 
 .footer-text{
-    color: white;
+    color: var(--White-color);
 }
 
 .footer-subtext{
     font-size: 2rem;
 }
+
+.fa{
+    font-size: 3rem;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 512px) {
+    .footer-container {
+        width: 100%;
+        
+    }
+  }

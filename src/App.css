@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
 }
@@ -45,3 +48,11 @@ a{
 .app{
   text-align: center;
 }
+
+:root{
+  --Primary-color:royalblue;
+  --White-color:white;
+  --black-color:black;  
+}
+
+/* var(--p) */

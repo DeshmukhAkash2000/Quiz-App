@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&family=Candal&family=Monoton&family=Open+Sans&family=Sansita:ital@1&display=swap');
 
 .header-container{
-    background-color: royalblue;
+    background-color: var( --Primary-color);
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -10,7 +10,7 @@
 }
 
 .quiz-title{
-    color: white;
+    color: var(--White-color);
     margin-left: 2rem;
     font-size: 2.5rem;
     font-family: 'Anek Tamil', sans-serif;
@@ -21,3 +21,10 @@
     font-size: 2.5rem;
     margin-right: 2rem;
 }
+
+@media screen and (max-width: 512px) {
+    .header-container {
+        width: 115%;
+        
+    }
+  }
